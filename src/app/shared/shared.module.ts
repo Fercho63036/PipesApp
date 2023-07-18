@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from './components/menu/menu.component';
-import { PrimNgModule } from '../prim-ng/prim-ng.module';
+import { PrimeNgModule } from '../prim-ng/prim-ng.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +9,7 @@ import { PrimNgModule } from '../prim-ng/prim-ng.module';
   ],
   imports: [
     CommonModule,
-    PrimNgModule,
+    PrimeNgModule,
   ],
   exports: [
     MenuComponent,
